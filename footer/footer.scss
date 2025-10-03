@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+    @include flex();
+
+    p {
+        font-size: 15px;
+
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+
+            &:hover {
+                text-decoration: underline solid;
+             
+            }
+        }
+    }
+}
